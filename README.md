@@ -15,7 +15,7 @@ This is a Spring Boot-based microservice designed for [describe purpose, e.g., h
 
 ## 🛠 Tech Stack
 
-- Java 17+
+- Java 16+
 - Spring Boot
 - Spring Web
 - Spring Data JPA
