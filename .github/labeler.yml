@@ -1,0 +1,11 @@
+# .github/labeler.yml
+
+backend:
+  - 'src/main/java/**'
+  - 'src/main/resources/**'
+
+'Bug':
+  - head-branch: ['^bugfix', 'bugfix', '^fix', 'fix']
+
+Feature:
+  - head-branch: ['^feature', 'feature', '^feat', 'feat']
