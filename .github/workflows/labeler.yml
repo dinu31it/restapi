@@ -12,6 +12,9 @@ jobs:
   label:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Install GitHub CLI
         run: sudo apt-get install gh
 
@@ -19,7 +22,7 @@ jobs:
         run: |
           YEAR=$(date +"%Y")
           echo "Adding label: $YEAR"
-          gh pr edit "$PR_NUMBER" --add-label "$YEAR"
+          gh pr edit "$PR_NUMBER" --add-label "$YEAR" --repo "$GITHUB_REPOSITORY"
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
