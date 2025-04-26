@@ -1,6 +1,6 @@
 # RESTAPI
 
-This is a Spring Boot-based microservice designed for [describe purpose, e.g., handling user authentication, processing orders, etc.]. It follows best practices for microservice architecture, including separation of concerns, RESTful APIs, and dependency injection.
+This is a Spring Boot-based microservice designed for [describe purpose, e.g., handling user authentication, processing orders, etc.] It follows best practices for microservice architecture, including separation of concerns, RESTFul APIs, and dependency injection.
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@ This is a Spring Boot-based microservice designed for [describe purpose, e.g., h
 
 ## 🛠 Tech Stack
 
-- Java 17+
+- Java 16+
 - Spring Boot
 - Spring Web
 - Spring Data JPA
@@ -25,3 +25,5 @@ This is a Spring Boot-based microservice designed for [describe purpose, e.g., h
 - Docker (optional)
 
 ## 📦 Project Structure
+
+## 📌 Pull Request Labeler
